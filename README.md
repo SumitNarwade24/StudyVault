@@ -13,6 +13,12 @@ StudyVault solves this problem by bringing everything together into a **single, 
 
 ---
 
+## 🌐 Live Demo
+
+👉 **[StudyVault – Live Demo](https://study-vault-flame.vercel.app/)**
+
+---
+
 # ✨ Features
 
 * 📖 Browse study materials by **subject or topic**
