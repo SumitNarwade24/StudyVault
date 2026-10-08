@@ -19,7 +19,7 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
                 .allowedOrigins("http://localhost:5173", "http://localhost:5174", "http://localhost:5175",
-                        "http://localhost:3000") // Common
+                        "http://localhost:3000", "https://study-vault-flame.vercel.app") // Common
                 // Vite/React
                 // ports
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
