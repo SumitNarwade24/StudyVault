@@ -19,7 +19,9 @@ const MaterialViewer = ({ material, onClose }) => {
         return url;
     };
 
-    const fileUrl = isYouTube ? getEmbedUrl(material.filePath) : `http://localhost:8080/api/materials/view/${material.filePath}`;
+   const fileUrl = isYouTube
+    ? getEmbedUrl(material.filePath)
+    : `${import.meta.env.VITE_API_URL}/api/materials/view/${material.filePath}`;
 
     return (
         <AnimatePresence>
